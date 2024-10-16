@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+  padding-top: 1rem;
+  z-index: 999;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  letter-spacing: -0.8px;
+  font-size: 14px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  text-decoration: none;
+}
+
+.logo {
+  width: 14rem;
+}
+.navCard {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 4px 5px;
+  display: flex;
+  font-size: 12px;
+  letter-spacing: -0.8px;
+}
+
+.navCard .btn {
+  padding: 0 5px;
+}
+.navCard .btn:nth-child(1) {
+  border-right: 1px solid rgb(230, 230, 230);
+}
+.navCard .btn span {
+  color: #4e973b;
+  font-size: 10px;
+}
+.navCard .btn .headline {
+  color: gray;
+  font-size: 10px;
+}
+
+video {
+  margin-top: -1rem;
+}
+
+.mainBannerText {
+  font-size: 48px;
+  position: absolute;
+  top: 70%;
+  color: white;
+  padding-left: 6rem;
+}
+.mainBannerText span {
+  font-weight: 800;
+  color: #fcc400;
+}
