@@ -35,9 +35,9 @@ const LandingPageVideo = () => {
         Your browser does not support the video tag.
       </video>
       <div className="mainBannerText">
-        Goal - <span> Expand renewable</span>
+        Goal - <span> Expand REnewable</span>
         <br />
-        <span>energy </span>capacity to <strong>10 GW by 2030.</strong>
+        <span>Energy </span>capacity to <strong>10 GW by 2030.</strong>
       </div>
     </div>
   );
